@@ -1,6 +1,6 @@
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
   font-family: "PT Sans", sans-serif;
 }
@@ -35,11 +35,6 @@ header{
   background-color: #02020260;
 }
 
-
-
-
-
-
 .dline{
   color:rgb(214, 21, 166);
   font-size:2em;
@@ -55,8 +50,6 @@ header{
   cursor: pointer;
 }
 
-
-
 header h1,
 header a,
 .text p,
@@ -65,10 +58,7 @@ header a,
 .work h1,
 .contact h1{
   color: #43fc2a;
-
-  
 }
-
 
 .eu:hover{
   color: #ED5565;
@@ -83,7 +73,6 @@ header a:hover{
 li{
   list-style: none;
   margin-left: 30px;
-
 }
 
 a{
@@ -94,9 +83,6 @@ a{
   top: 50%;
   bottom: 50%;
   transform: translateY(-50%)
-
-  
-
 }
 
 .main-info-section{
@@ -123,7 +109,6 @@ span:hover{
 span.name{
   color:#ED5565 ;
 }
-
 
 span.m-left{
   margin-left: -10px;
@@ -165,8 +150,6 @@ span.m-left{
   height:0%;
   z-index: -1;
   transition: .4s;
- 
-
 }
 
 .text a:hover::before{
@@ -190,12 +173,9 @@ span.m-left{
   cursor: pointer;
 }
 
-
-
 .about{
   height: 100vh;
   margin-top: 100px;
-
 }
 .about h1,
 .work h1{
@@ -214,13 +194,11 @@ span.m-left{
   right: 50%;
   transform: translateX(40%);
   z-index:1;
-
 }
 
 .about-me-info p{
   font-size: 1.3rem;
   color:#BEBEBE;
-
 }
 .about img{
   width: 300px;
@@ -232,14 +210,12 @@ span.m-left{
 }
 .skills{
   height: 100vh;
-
 }
 .skills h1,
 .contact h1{
   text-align: right;
   font-size: 10rem;
   opacity: .1;
-
 }
 
 .skills-info{
@@ -293,9 +269,7 @@ div[class^='bar-']{
   height: 10px;
   border-radius: 20px;
   margin: 2.7px;
-
 }
-
 
 .bar-html,
 .bar-css,
@@ -317,13 +291,10 @@ outline: none;
 cursor: pointer;
 }
 
-
 .work-category button:hover{
   color: #43fc2a;
   background-color:rgba(248, 41, 248, 0.164);
 }
-
-
 
 div[class^='category-']{
   margin-top: 50px;
@@ -346,7 +317,6 @@ button.active{
 }
 div.hideCategory{
   display:block;
-
 }
 
 .contact{
@@ -387,6 +357,6 @@ footer p{
   text-align:center;
   color: #770077;
   font-size: 1.2rem;
-  padding: 30px 0;
+ padding: 30px 0;
 
 }
