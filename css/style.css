@@ -160,10 +160,10 @@ span.m-left {
   border-radius: 500px;
   opacity: 0.3;
   border: 3px;
+  transition: all 0.8s;
 }
 
 .profile-image :hover {
-  transition: 1s;
   border-radius: 0px;
   opacity: 5;
   cursor: pointer;
@@ -285,6 +285,7 @@ div[class^="bar-"] {
   background-color: #252627;
   outline: none;
   cursor: pointer;
+  transition: all 0.4s;
 }
 
 .work-category button:hover {
@@ -350,7 +351,7 @@ footer hr {
 
 footer p {
   text-align: center;
-  color: #770077;
+  color: #a099a0;
   font-size: 1.2rem;
   padding: 30px 0;
 }
