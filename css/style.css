@@ -172,6 +172,7 @@ span.m-left {
 .about {
   height: 100vh;
   margin-top: 100px;
+  overflow: hidden;
 }
 .about h1,
 .work h1 {
